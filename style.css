@@ -1,0 +1,356 @@
+
+
+
+.nav-item{
+    font-family: 'poppins';
+    margin-right: 10px;
+    font-weight: 400;
+}
+img#logo {
+    width: 13%;
+}
+.header{
+    background-image: url('./assets/header.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+
+}
+.rightsec {
+    margin-top: 77px;
+    margin-bottom: 85px;
+    text-align: end;
+    margin-right: -39px;
+}
+
+
+.rightsec h1 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: 700;
+}
+
+.rightsec p {
+    color: white;
+    margin-top: 40px;
+    font-family: 'poppins';
+}
+a.headerbtn.btn.btn-danger {
+    border-radius: 31px !important;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.loginbtn{
+    margin-left: 50%;
+}
+
+
+
+/* who we are start */
+
+.whowere {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 33px;
+}
+
+center.whowearetitle {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    color: red;
+}
+.row para{
+    margin-top: 37px;
+    margin-right: 20%;
+    font-family: 'Poppins';
+}
+#whowearepara{
+    font-family: 'poppins';
+    font-size: 13px;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+/* who we are end */
+
+/* findjob start */
+img.findjobimg {
+    width: 55%;
+    margin-left: 20%;
+}
+p#findjobtext {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20%;
+    width: 50%;
+}
+.findjobsection {
+    background-color: #F8F5F5;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+button.btn.btn-primary {
+    margin-left: 20%;
+    background-color: white;
+    color: black;
+    border: white;
+    font-family: 'poppins';
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+/* findjob end */
+
+/* services start */
+.services{
+    background-color: #F8F5F5;
+
+}
+    #servicestext{
+        font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    color: red;
+    }
+    img#servicesimg {
+        margin-left: 20%;
+        width: 72%;
+    }
+    h4.servicesheading {
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: 700;
+    }
+    p.servicespara {
+        font-family: 'Poppins';
+        font-size: 13px;
+        margin-right: 20%;
+    }
+
+/* services end */
+
+
+
+/* feature start */
+.featureimg{
+    width: 112px;
+}
+p.featuretext {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+    font-family: 'Poppins';
+}
+.card{
+    width: 300px;
+    height: 136px;
+    border-radius: 25px !important;
+    border-color: white;
+    box-shadow: #02020273 6px 8px 20px;
+}
+/* feature end */
+
+
+
+
+
+
+
+
+
+/* subscribe start */
+    .subscribebox{
+        width: 40%;
+        background-color: #F8F5F5;
+        padding: 12px;
+        border-radius: 26px;
+        box-shadow: 11px 19px 9px #00000017;
+    }
+    .subscribebox h5{
+        font-size: 9px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: red;
+    }
+
+.subscribebox h2{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'poppins';
+}
+input.form-control {
+    margin-top: 17px;
+    border-radius: 28px;
+    margin-bottom: 17px;
+}
+.subscriberightsection.col {
+    margin-right: 10%;
+    margin-top: 25px;
+}
+#subheading{
+    font-size: 30px;
+    font-weight: 600;
+}
+/* subscribe end */
+
+
+/* footer start */
+
+.footer{
+    background-image: url(./assets/897.png);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footerheading{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+#footerlogo{
+    width: 72%;
+}
+hr.horiline {
+    width: 160px;
+    margin-top: -14px;
+    margin-bottom: 4px;
+}
+/* footer end */
+hr.reddivider {
+    width: 68px;
+    color: red;
+    height: 4px !important;
+    margin-top: -2px;
+}
+
+/* mobile responsive code */
+@media only screen and (max-width: 600px) {
+    
+    .rightsec {
+        margin-top: 77px;
+        margin-bottom: 85px;
+        text-align: end;
+        margin-right: 0px;
+    }
+    .loginbtn {
+        margin-left: 0px;
+    }
+    #whowearepara {
+        font-family: 'poppins';
+        font-size: 12px;
+        margin-left: 10% !important;
+        margin: 0px;
+         margin-right: 10% !important; 
+       margin-top: 0px; 
+        text-align: center;
+    }
+    p#findjobtext {
+        font-family: 'Poppins';
+        font-size: 21px;
+        font-weight: bold;
+        margin-left: 20%;
+        width: 167%;
+    }
+    img#logo {
+        width: 43%;
+    }
+    .whorow.row {
+        display: block;
+    }
+    .whowere {
+        width: 62%;
+        /* margin-left: 20%; */
+        /* margin-top: 33px; */
+    }
+    .emptyspace{
+        flex: 0 0 0% !important;
+    }
+    .findjobsection {
+        background-color: #F8F5F5;
+        margin-top: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    img.findjobimg {
+        width: 72%;
+        margin-left: 38px;
+        margin-top: 66px;
+    }
+    center.whowearetitle {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 22px;
+        color: red;
+    }
+    #servicestext {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 22px;
+        color: red;
+    }
+    p.servicespara {
+        font-family: 'Poppins';
+        font-size: 12px;
+        margin-right: 10%;
+    }
+    .servicesrow.row.pt-5.pb-5 {
+        display: block;
+        text-align: center;
+    }
+    img#servicesimg {
+        /* text-align: center; */
+        margin-left: 0px;
+        width: 71%;
+    }
+    p.servicespara {
+        font-family: 'Poppins';
+        font-size: 12px;
+        margin-right: 0px;
+    }
+    hr.reddivider {
+        width: 68px;
+        color: red;
+        display: none;
+        /* align-content: center; */
+        /* text-align: center; */
+        height: 4px !important;
+        margin-top: -2px;
+    }
+    .subrow.row {
+        display: block;
+    }
+    .subscribebox {
+        width: 91%;
+        background-color: #F8F5F5;
+        padding: 12px;
+        border-radius: 26px;
+        box-shadow: 11px 19px 9px #00000017;
+    }
+    #subheading {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .card {
+        width: 300px;
+        height: 136px;
+        border-radius: 25px !important;
+        border-color: white;
+        margin-bottom: 17px;
+        box-shadow: #02020273 6px 8px 20px;
+    }
+    p.featuretext {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        font-family: 'Poppins';
+    }
+    .cardimage.col-sm {
+        width: 50%;
+    }
+    .cardtitle.col-sm {
+        width: 50%;
+    }
+    
+  }
